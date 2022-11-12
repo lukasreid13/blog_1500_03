@@ -1,0 +1,153 @@
+.box {
+    background-color: #aaa7a7;
+    border: 0px;
+}
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+a:hover {
+    color: #aaa7a7;
+  }
+
+a {
+    color: white;
+}
+
+.topcontent {
+    width: 900px;
+    height: 173px;
+    margin: 0px auto 0px auto;
+    background-color: white;
+}
+
+.line {
+    left: 30px;
+    top: 32px;
+    position: relative;
+}
+
+.logo {
+    left: 30px;
+    top: 52px;
+    position: relative;
+    float: left;
+    
+    
+}
+
+.date {
+    font-size: 25px;
+    font-family: Roboto-Medium, sans-serif; 
+    color: black;
+    top: 30px;
+    left: 60px;
+    position: relative;
+}
+
+.bodycontent {
+    width: 900px;
+    height: 752px;
+    margin: 0px auto 0px auto;
+    background-color: white;
+}
+
+img { display:block; }
+
+
+.column {
+    float: left;
+    margin-left: 30px;
+}
+
+.left {
+    width: 485px;
+}
+ .right {
+    width: 340px;
+    margin-left: 15px;
+ }
+
+
+
+
+p {
+    font-size: 18px;
+    font-family: ProximaNovaRegular;
+}
+
+
+h1 {
+    font-size: 30px;
+    font-family: Roboto-Medium, sans-serif;
+    color: black;
+}
+
+
+
+
+
+@font-face {
+    font-family: RobotoMedium;
+    src: url(../fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: ProximaNovaRegular;
+    src: url(../fonts/Proxima\ Nova\ Regular.otf);
+}
+
+
+
+
+
+
+
+
+.bottomcontent {
+    width: 900px;
+    height: 175px;
+    margin: 0px auto 0px auto;
+    background-color: white;
+    padding-top: 1px;
+}
+
+
+
+
+.linktitle {
+    font-size: 30px;
+    font-family: Roboto-Medium, sans-serif;
+    color: white;
+    left: 30px;
+    top: -10px;
+    position: relative;
+    background-color: black;
+    width: 190px;
+    padding: 10px;
+
+}
+
+.name {
+    font-size: 30px;
+    font-family: Roboto-Medium, sans-serif;
+    color: black;
+    left: 30px;
+    position: relative;
+    float: left;
+}
+
+.blog1 { 
+     font-size: 30px;
+     font-family: Roboto-Medium, sans-serif;
+     left: 625px;
+     position: relative;
+     display: inline;
+     float: left;
+}
+
+
+
+
