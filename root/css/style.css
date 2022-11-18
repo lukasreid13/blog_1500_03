@@ -1,14 +1,93 @@
-body {
+.box {
+    background-color: #aaa7a7;
+    border: 0px;
+}
+
+html, body {
     margin: 0px;
+    padding: 0px;
 }
 
+a:hover {
+    color: #aaa7a7;
+  }
 
-main {
-    width: 1480px;
-    height: 1200px;
+a {
+    color: white;
+}
+
+.topcontent {
+    width: 900px;
+    height: 173px;
+    margin: 0px auto 0px auto;
     background-color: white;
-    margin: -16px auto 0px auto;
 }
+
+.line {
+    left: 30px;
+    top: 32px;
+    position: relative;
+}
+
+.logo {
+    left: 30px;
+    top: 52px;
+    position: relative;
+    float: left;
+    
+    
+}
+
+.date {
+    font-size: 25px;
+    font-family: Roboto-Medium, sans-serif; 
+    color: black;
+    top: 30px;
+    left: 60px;
+    position: relative;
+}
+
+.bodycontent {
+    width: 900px;
+    height: 752px;
+    margin: 0px auto 0px auto;
+    background-color: white;
+}
+
+img { display:block; }
+
+
+.column {
+    float: left;
+    margin-left: 30px;
+}
+
+.left {
+    width: 485px;
+}
+ .right {
+    width: 340px;
+    margin-left: 15px;
+ }
+
+
+
+
+p {
+    font-size: 18px;
+    font-family: ProximaNovaRegular;
+}
+
+
+h1 {
+    font-size: 30px;
+    font-family: Roboto-Medium, sans-serif;
+    color: black;
+}
+
+
+
+
 
 @font-face {
     font-family: RobotoMedium;
@@ -16,145 +95,59 @@ main {
 }
 
 @font-face {
-    font-family: DidactGothic;
-    src: url(../fonts/DidactGothic-Regular\ copy.ttf);
+    font-family: ProximaNovaRegular;
+    src: url(../fonts/Proxima\ Nova\ Regular.otf);
 }
 
 
-.topbackground {
-    width: 1480px;
-    height: 280px;
-    background-color: rgb(247,247,239);
-    margin: -98px auto 0px auto;
-}
 
-#vertical-line {
-    width: 1100px;
-    height: 3px;
-    background-color: black;
-    position: relative;
-    top: 150px;
-    left: 194px;
-    
-}
 
-.linetext {
-    font-family: Arial;
-    font-size: 16px;
-    position: relative;
-    top:-23px
-}
 
-article {
-    width: 328px;
-    height: 563px;
+
+
+
+.bottomcontent {
+    width: 900px;
+    height: 175px;
+    margin: 0px auto 0px auto;
     background-color: white;
+    padding-top: 1px;
+}
+
+
+
+
+.linktitle {
+    font-size: 30px;
+    font-family: Roboto-Medium, sans-serif;
+    color: white;
+    left: 30px;
+    top: -10px;
     position: relative;
-    top: 200px;
-    left: 195px;
+    background-color: black;
+    width: 190px;
+    padding: 10px;
+
+}
+
+.name {
+    font-size: 30px;
+    font-family: Roboto-Medium, sans-serif;
+    color: black;
+    left: 30px;
+    position: relative;
     float: left;
 }
 
-.img1 {
-    height: 228px;
-    width: 328px;
-    position: relative; 
-    top: -95px;
-}
-
-
-time {
-    position: relative;
-    font-family: Arial;
-    font-size: 14px;
-    top: -75px;
-    left: 93px;
-}
-
-h1 {
-    position: relative;
-    font-family: RobotoMedium;
-    font-size: 38px;
-    top: 90px;
-    left: 665px;
-
-}
-
-h2 {
-    font-family: RobotoMedium;
-    font-size: 18px;
-    position: relative;
-    top: 280px;
-}
-
-
-p {
-    font-family: Arial;
-    font-size: 14px;
-    position: relative;
-    top: 12px;
-}
-
-
-
-a { 
-    position: relative;
-    font-family: Arial;
-    font-size: 14px;
-    top: -75px;
-    left: 5px;
-}
-
-.articletwo {
-      width: 328px;
-      height: 563px;
-      background-color: white;
-      position: relative;
-     top: 200px;
-     left: 246px;
+.blog1 { 
+     font-size: 30px;
+     font-family: Roboto-Medium, sans-serif;
+     left: 625px;
+     position: relative;
+     display: inline;
      float: left;
-    }
+}
 
-    .img2 {
-        height: 228px;
-        width: 328px;
-        position: relative; 
-        top: -74px;
-    }
-    
-    
-    .time2 {
-        position: relative;
-        font-family: Arial;
-        font-size: 14px;
-        top: -55px;
-        left: 97px;
-    }
-    
-    
-
-    
-    .h22 {
-        position: relative;
-        top: 281px;
-    }
-    
-    
-    .p2 {
-        position: relative;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 14px;
-        top: 12px;
-    }
-    
-    
-    
-    .a2 { 
-        font-family: Arial;
-        font-size: 14px;
-        position: relative;
-        top: -55px;
-    }
 
 
 
