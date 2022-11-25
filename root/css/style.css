@@ -1,5 +1,5 @@
 body {
-    margin: 0px;
+    
 }
 
 html,body
@@ -11,12 +11,19 @@ html,body
     overflow-x: hidden; 
 }
 
+h1 {
+    font-family: RobotoMedium;
+    text-align: center;
+    font-size: 38px;
+    line-height: 280px; 
+}
+
 
 main {
     width: 1480px;
     height: 1200px;
-    background-color: white;
-    margin: -16px auto 0px auto;
+    background-image: url(../images/wp10821254.png); 
+    margin: 0px auto 0px auto;
 }
 
 @font-face {
@@ -33,137 +40,199 @@ main {
 .topbackground {
     width: 1480px;
     height: 280px;
-    background-color: rgb(247,247,239);
-    margin: -98px auto 0px auto;
+    background-color: white;
+    margin: -31px auto 0px auto;
 }
 
-#vertical-line {
-    width: 1100px;
+aside {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.vertical-line {
+    width: 1044px;
     height: 3px;
+    float: left;
     background-color: black;
     position: relative;
-    top: 150px;
-    left: 194px;
-    
+    left: 158px;
 }
 
 .linetext {
     font-family: Arial;
     font-size: 16px;
     position: relative;
-    top:-23px
+    left: 212px;
+    top: 75px;
 }
+
 
 article {
     width: 328px;
-    height: 563px;
-    background-color: white;
-    position: relative;
-    top: 200px;
-    left: 195px;
-    float: left;
+    height: 700px;
+    background-color: 
+    margin-top: 50px;
+    margin-right: 30px;
+    margin-left: 210px;
+    float:left;
 }
 
 .img1 {
     height: 228px;
     width: 328px;
-    position: relative; 
-    top: -95px;
+    float: left;
+    margin-bottom: 20px;
+    
 }
 
 
 time {
-    position: relative;
     font-family: Arial;
     font-size: 14px;
-    top: -75px;
-    left: 93px;
+    float: right;
+    margin-right: 5px;
 }
 
-h1 {
-    font-family: RobotoMedium;
-    text-align: center;
-    position: relative;
-    font-size: 38px;
-    top: 75px;
 
-}
 
 h2 {
     font-family: RobotoMedium;
     font-size: 18px;
-    position: relative;
-    top: 280px;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
 }
 
 
 p {
     font-family: Arial;
     font-size: 14px;
-    position: relative;
-    top: 12px;
+    float: left;
+    margin: 0px;
 }
 
 
 
 a { 
-    position: relative;
+
     font-family: Arial;
     font-size: 14px;
-    top: -75px;
-    left: 5px;
+    float: left;
+    margin-left: 5px;
 }
 
 .articletwo {
-      width: 328px;
-      height: 563px;
-      background-color: white;
-      position: relative;
-     top: 200px;
-     left: 246px;
-     float: left;
-    }
+    width: 328px;
+    height: 563px;
+    background-color: 
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: 30px;
+    float:left;
+}
 
-    .img2 {
-        height: 228px;
-        width: 328px;
-        position: relative; 
-        top: -74px;
-    }
+.img2 {
+    height: 228px;
+    width: 328px;
+    float: left;
+    margin-bottom: 20px;
     
-    
-    .time2 {
-        position: relative;
-        font-family: Arial;
-        font-size: 14px;
-        top: -55px;
-        left: 97px;
-    }
-    
-    
+}
 
+
+.time2 {
+    font-family: Arial;
+    font-size: 14px;
+    float: right;
+    margin-right: 5px;
+}
+
+
+
+.h22 {
+    font-family: RobotoMedium;
+    font-size: 18px;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+
+.p2 {
+    font-family: Arial;
+    font-size: 14px;
+    float: left;
+    margin: 0px;
+}
+
+
+
+.a2 { 
+    font-family: Arial;
+    font-size: 14px;
+    float: left;
+    margin-left: 5px;
+}
+
+
+.articlethree {
+    width: 328px;
+    height: 563px;
+    background-color: 
+    margin-top: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+    float: left;
+}
+
+.img3 {
+    height: 228px;
+    width: 328px;
+    float: left;
+    margin-bottom: 20px;
     
-    .h22 {
-        position: relative;
-        top: 281px;
-    }
-    
-    
-    .p2 {
-        position: relative;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 14px;
-        top: 12px;
-    }
-    
-    
-    
-    .a2 { 
-        font-family: Arial;
-        font-size: 14px;
-        position: relative;
-        top: -55px;
-    }
+}
+
+
+.time3 {
+    font-family: Arial;
+    font-size: 14px;
+    float: right;
+    margin-right: 5px;
+}
+
+
+
+.h23 {
+    font-family: RobotoMedium;
+    font-size: 18px;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+
+.p3 {
+    font-family: Arial;
+    font-size: 14px;
+    float: left;
+    margin: 0px;
+}
+
+
+
+.a3 { 
+    font-family: Arial;
+    font-size: 14px;
+    float: left;
+    margin-left: 5px;
+}
+
+
+
 
 
 
