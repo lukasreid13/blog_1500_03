@@ -1,4 +1,4 @@
-let noOfCharac = 600;
+let noOfCharac = 200;
 let contents = document.querySelectorAll(".content");
 contents.forEach(content => {
     //If text length is less that noOfCharac... then hide the read more button
